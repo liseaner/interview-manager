@@ -39,7 +39,7 @@
             <el-select
               v-model="ruleForm.index"
               placeholder="金额"
-              style="width: 100px" props="index"
+              style="width: 100px" 
             >
               <el-option label="区域一" value="shanghai"></el-option>
               <el-option label="区域二" value="beijing"></el-option>
@@ -48,7 +48,7 @@
               placeholder="输入金额/数量"
               v-model="ruleForm.num2"
               :disabled="true"
-              style="width: 300px; margin-left: 15px" props="num2"
+              style="width: 300px; margin-left: 15px"
             >
             </el-input> </el-form-item
         ></el-col>
@@ -66,7 +66,7 @@
               placeholder="输入金额/数量"
               v-model="ruleForm.num1"
               :disabled="true"
-              style="width: 300px; margin-left: 15px" props="num2"
+              style="width: 300px; margin-left: 15px" 
             >
             </el-input> </el-form-item
         ></el-col>
